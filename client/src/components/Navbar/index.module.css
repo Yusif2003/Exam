@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+
+}
+.ul{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(118,117,118);
+}
+.topnav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(188,81,72);
+    height: 45px;
+    align-items: center;
+}
+.navlog a{
+text-decoration: none;
+padding: 14px;
+color:black
+
+}
+
+.sponsor:hover{
+color: white;
+transition: .4s;
+
+}
+.login{
+    background-color: rgb(244,178,20);
+}
+.login:hover{
+color: white;
+transition: .4s;
+}
